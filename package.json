@@ -1,5 +1,5 @@
 {
-  "name": "metalsmith-specialhtml",
+  "name": "metalsmith-htmlescape",
   "version": "0.0.1",
   "description": "Utilize special-html to prevent unicode fun",
   "main": "lib/index.js",
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/damnit/metalsmith-specialhtml.git"
+    "url": "git://github.com/damnit/metalsmith-htmlescape.git"
   },
   "dependencies": {
     "special-html": "0.0.1"
   },
   "keywords": [
     "metalsmith",
-    "html",
+    "html-special",
     "escape",
-    "special"
+    "unicode"
   ],
   "author": "Otto Hockel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/damnit/metalsmith-specialhtml/issues"
+    "url": "https://github.com/damnit/metalsmith-htmlescape/issues"
   },
-  "homepage": "https://github.com/damnit/metalsmith-specialhtml"
+  "homepage": "https://github.com/damnit/metalsmith-htmlescape"
 }

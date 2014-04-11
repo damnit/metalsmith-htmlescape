@@ -1,5 +1,5 @@
-metalsmith-specialhtml
-======================
+metalsmith-htmlescape
+=====================
 
 Converts files to have HTML escaped UTF-8 characters.
 This is useful when your markdown files are being converted
@@ -9,16 +9,16 @@ Install
 -------
 
 ```
-npm install metalsmith-specialhtml
+npm install metalsmith-htmlescape
 ```
 
 Usage
 -----
 
 ```
-var specialhtml = require('metalsmith-specialhtml');
+var htmlescape = require('metalsmith-htmlescape');
 
-.use(specialhtml())
+.use(htmlescape())
 ```
 
 CLI Usage
@@ -27,7 +27,7 @@ Install via npm and add it to your `metalsmith.json`:
 ```
 {
   "plugins": {
-      "metalsmith-specialhtml": true
+      "metalsmith-htmlescape": true
     }
 }
 ```
