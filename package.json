@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-htmlescape",
-  "version": "0.0.1",
+  "version": "1",
   "description": "Utilize special-html to prevent unicode fun",
   "main": "lib/index.js",
   "scripts": {
